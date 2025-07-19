@@ -288,10 +288,10 @@ body{
     width: 25px; height: 25px; 
   }
   .allSC-Btn{
-    display: grid; align-items: center; justify-content: center; gap: 2rem; margin: 0;
+    display: flex; place-self: center; align-items: center; justify-content: center; gap: 2rem; margin: 0;
   }
   .allSC-Btn button{
-    margin: 0 auto;
+    width: fit-content; margin: 0 auto;
   }
   .storySection div{
     margin: 0 auto; display: flex; flex-direction: column; margin-top: 2rem;
