@@ -401,6 +401,9 @@ body{
   } */
 }
 @media screen and (max-width: 600px){
+  .navBar span img{
+    width: 40px; 
+  }
   .caSection span:last-child{
     margin-right: 1.5rem;
   }
