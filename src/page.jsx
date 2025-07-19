@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 
 const Page = (props) => {
-    const {logo1B, z01, z02, z03, z04, z05, z06} = props.allImg,
+    const {logo1B, logo1A, z01, z02, z03, z04, z05, z06} = props.allImg,
           {copyBtn, copyDone} = props.copyBtn,
           {tw, tg, pf, ray, dexs, dext} = props.socialLink
     ;

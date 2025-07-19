@@ -12,6 +12,7 @@ import copyBtn from "./assets/logo/copy-btn.png";
 import copyDone from "./assets/logo/copy-done.png"
 
 import logo1B from "./assets/logo/logo-transparent.png";
+import logo1A from "./assets/logo/logo.jpg";
 import z01 from "./assets/img/z01.png"; import z04 from "./assets/img/z04.jpg";
 import z02 from "./assets/img/z02.jpg"; import z05 from "./assets/img/z05.png";
 import z03 from "./assets//img/z03.png"; import z06 from "./assets/img/z06.jpg";
@@ -23,7 +24,7 @@ const socioLogo = {
   pf, dexs, dext, tw
 }
 const allImg = {
-  logo1B, z01, z02, z03, z04, z05, z06
+  logo1B, logo1A, z01, z02, z03, z04, z05, z06
 }
 
 function App() {

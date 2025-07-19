@@ -186,12 +186,17 @@ body{
 }
 .descriptionImg span:last-child{
   width: auto; display: block; pointer-events: all;
+  border: 4px solid var(--yellow-dark-color-txt); overflow: hidden;
+  transition: all; padding: 1rem 1rem;
 }
 .descriptionImg span .logoImg1{
-  display: none; position: none; pointer-events: none;
+  display: none; position: none; pointer-events: none; 
 }
 .descriptionImg .logoImg2 img{
-  width: 350px; height: 350px;
+  width: 300px; height: 300px; 
+}
+.descriptionImg .logoImg2 img:hover{
+  scale: 1.05;
 }
 .caSection{
   display: flex; align-items: last baseline; justify-content: center;
@@ -271,8 +276,10 @@ body{
   }
   .descriptionImg span .logoImg1{
     display: block; position: relative; pointer-events: all;
+    border: 4px solid var(--yellow-dark-color-txt); overflow: hidden;
+    transition: all; padding: 1rem 1rem;
   }
-  .descriptionImg span:last-child{
+ .descriptionImg span:last-child{
     display: none; pointer-events: none;
   }
   .caSection{
@@ -408,7 +415,10 @@ body{
     margin-right: 1.5rem;
   }
   .logoImg1 img{
-    width: 300px; height: 300px;
+    width: 220px; height: 220px;
+  }
+  .logoImg1 img:hover{
+    scale: 1.05;
   }
   .caSection{
     width: 90%;
